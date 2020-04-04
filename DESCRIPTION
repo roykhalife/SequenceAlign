@@ -1,11 +1,10 @@
 Package: SequenceAlign
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
-Encoding: UTF-8
+Title: Describes Aspects of Protein Sequences
+Version: 0.0.0.9000
+Author: Roy Khalife
+Maintainer: Roy Khalife <roykhalife@mail.usf.edu>
+Description: This package can list different protein sequences, as well as count up the number of amino acids per sequence.
+License: GPL General Public License
+Depends: R (>= 3.5.2)
 LazyData: true
