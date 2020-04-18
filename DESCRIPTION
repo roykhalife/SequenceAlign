@@ -8,3 +8,8 @@ Description: This package can use FASTA text files to accurately count up the nu
 License: GPL General Public License
 Depends: R (>= 3.5.2)
 LazyData: true
+RoxygenNote: 7.1.0
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
