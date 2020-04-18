@@ -1,0 +1,26 @@
+---
+title: "AAvignette"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{AAvignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(SequenceAlign)
+```
+
+
+## Package SequenceAlign
+# Amino Acid Counter
+This function reads a data file in FASTA format, and counts the amount
+of amino acids present in the protein.
+
